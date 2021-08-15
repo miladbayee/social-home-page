@@ -4,6 +4,6 @@ This project was bootstrapped with [Create React App](https://github.com/faceboo
 
 ## Live Demo
 
-You can see live project in here: [Viwe Online](https://socila-app-miladbayee.vercel.app)
+You can see live project in here: [Viwe Online](https://social-app-miladbayee.vercel.app)
 
 
