@@ -1,0 +1,12 @@
+.user__img {
+    width: 40px;
+    height: 40px;
+  }
+  
+  .user__img img {
+    width: inherit;
+    height: inherit;
+    object-fit: cover;
+    border-radius: 50%;
+  }
+  

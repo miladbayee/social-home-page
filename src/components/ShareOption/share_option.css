@@ -1,0 +1,33 @@
+.share__option {
+  display: flex;
+  align-items: center;
+  
+}
+
+.share__option span {
+  margin-left: 5px;
+  text-transform: capitalize;
+  font-weight: 500;
+}
+
+.share__icons {
+  display: flex;
+  align-items: center;
+  font-size: 20px;
+}
+
+.share__option:nth-child(1) {
+  color: tomato;
+}
+
+.share__option:nth-child(2) {
+  color: blue;
+}
+
+.share__option:nth-child(3) {
+  color: green;
+}
+
+.share__option:nth-child(4) {
+  color: goldenrod;
+}

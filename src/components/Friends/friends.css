@@ -1,0 +1,12 @@
+.friends__container{
+    display: flex;
+    align-items: center;
+    margin:20px 0;
+    cursor: pointer;
+}
+
+.friends__container span{
+    font-size: 17px;
+    width: 500;
+    margin-left: 10px;
+  }

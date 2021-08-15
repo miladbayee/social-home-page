@@ -1,0 +1,94 @@
+.header {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  height: 70px;
+  width: 100%;
+  padding: 20px;
+  background-color: #1877f2;
+  position: sticky;
+  top: 0;
+  z-index: 1;
+}
+
+/* left side style */
+.header__left {
+  flex: 3;
+}
+
+.header__logo {
+  display: flex;
+  align-items: center;
+  color: #fff;
+}
+
+/* center side style */
+.header__center {
+  flex: 5;
+  width: 100%;
+  padding: 8px;
+  background-color: #fff;
+  border-radius: 20px;
+}
+
+.header__search {
+  display: flex;
+  align-items: center;
+}
+
+.header__search_icon {
+  margin-left: 10px;
+}
+
+/* right side style */
+.header__right {
+  flex: 4;
+}
+
+.header__nav {
+  display: flex;
+  align-items: center;
+  justify-content: space-around;
+  color: #fff;
+}
+
+.header__menu {
+  cursor: pointer;
+}
+
+.header__menu span:first-child {
+  margin-right: 20px;
+}
+
+.header__notifactions {
+  display: flex;
+  align-items: center;
+}
+
+.header__notifactions_list {
+  position: relative;
+  margin-right: 25px;
+  cursor: pointer;
+}
+
+.header__notifactions_list__icon {
+  font-size: 24px !important;
+}
+
+.badge {
+  position: absolute;
+  top: -7px;
+  left: 12px;
+  width: 16px;
+  height: 16px;
+  font-size: 13px;
+  background-color: red;
+  border-radius: 50%;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+.header__user {
+  cursor: pointer;
+}

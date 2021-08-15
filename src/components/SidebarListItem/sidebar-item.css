@@ -1,0 +1,22 @@
+.sidebar__list_item {
+  display: flex;
+  align-items: center;
+  margin-bottom: 15px;
+  color: rgba(24, 118, 242, 0.8);
+  transition: ease-in-out 0.2s;
+  cursor: pointer;
+}
+
+.sidebar__list_item:hover{
+  color: #1459b5;
+}
+
+.sidebar__list_item__icon {
+  font-size: 20px !important ;
+}
+
+.sidebar__list_item span {
+  margin-left: 10px;
+  font-weight: 500;
+  text-transform: capitalize;
+}

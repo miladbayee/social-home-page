@@ -1,0 +1,27 @@
+.online__users {
+  display: flex;
+  align-items: center;
+  margin: 20px 0;
+}
+
+.online__users_img {
+    display: flex;
+    align-items: center;
+    position: relative;
+}
+
+.online__users_img span{
+    padding: 7px;
+    background-color: lawngreen;
+    border-radius: 50%;
+    border: 3px solid white;
+    position: absolute;
+    left: 27px;
+    top:-4px;
+}
+
+.online__users p{
+    text-transform: capitalize;
+    margin-left: 10px;
+    font-weight: 700;
+}

@@ -1,0 +1,47 @@
+.rightbar{
+    flex:3.5;
+    padding:20px;
+}
+
+.rightbar__brithday_container{
+    display: flex;
+    align-items: center;
+}
+
+.rightbar__brithday_img{
+    width: 100px;
+    height: 100px;
+}
+
+.rightbar__brithday_img img{
+    width: inherit;
+    object-fit: fill;
+}
+
+.rightbar__brithday_content {
+    margin-left: 10px;
+}
+
+.rightbar__brithday_content p{
+    font-size: 14px;
+    line-height: 28px;
+    color: #222222;
+}
+
+.rightbar__adversing{
+    width: 100%;
+    height: auto;
+    margin: 20px 0;
+    
+}
+
+.rightbar__adversing img{
+    width: inherit;
+    border-radius: 8px;
+}
+
+.rightbar__online h3{
+    text-transform: capitalize;
+    margin-top: 30px;
+}
+
